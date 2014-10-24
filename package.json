@@ -1,0 +1,16 @@
+{
+    "name": "mgnrsb",
+    "scripts": {
+        "gulp": "gulp"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:mgnrsb/mgnrsb.github.io.git"
+    },
+    "dependencies": {
+        "gulp": "~3.8.8",
+        "gulp-sass": "~0.7.3",
+        "gulp-rename": "~1.2.0",
+        "node-bourbon": "~1.2.3"
+    }
+}

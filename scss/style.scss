@@ -1,0 +1,77 @@
+@import "bourbon";
+@import "normalize";
+
+html{ @include box-sizing(border-box); }
+
+
+/* colors */
+$purple:rgb(92,75,81);
+$blue:rgb(140,190,178);
+$yellow:rgb(242,235,191);
+$orange:rgb(243,181,98);
+$pink:rgb(240,96,96);
+
+$light:#bbb;
+$medium:#777;
+
+/* fonts*/
+$font: 'Quicksand', sans-serif;
+
+html {
+	color:$light;
+	font-family:$font;
+	font-size:16px;
+	}
+
+body {
+	max-width:960px;
+	margin:0 auto;
+	}
+
+a {
+	color:$medium;
+	font-weight:800;
+	}
+
+h1 {font-weight:400;}
+
+header {
+	background:#fff;
+
+	h1 {
+		margin:0px;
+		padding-top:1rem;		}	
+
+	nav {
+
+		ul {
+			padding:0px;
+			list-style-type:none;
+
+			li {
+				display:inline-block;
+
+					a {
+						text-decoration:none;
+						padding:3px;
+						}
+					.current, a:hover {
+						background:$medium;
+						color:#fff;
+						}
+				}
+			}
+		}
+	}
+
+section {
+		background:#000 url("../headshot.jpg") no-repeat right;
+
+		article {
+			background:rgba(0,0,0,.5);
+			padding:3%;
+			width:30%;
+		}
+}
+
+.board {background-color:#e3c98e;}
