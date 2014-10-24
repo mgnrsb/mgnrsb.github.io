@@ -328,6 +328,7 @@ html {
 /* colors */
 /* fonts*/
 html {
+  background: #fff;
   color: #bbb;
   font-family: 'Quicksand', sans-serif;
   font-size: 16px; }
@@ -362,10 +363,11 @@ header {
           padding: 3px; }
         header nav ul li .current, header nav ul li a:hover {
           background: #777;
-          color: #fff; }
+          color: #fff;
+          text-shadow: -1px 0px 1px #000; }
 
 .container {
-  background: #e3c98e url("../images/background.jpg") no-repeat top right; }
+  background: #777 url("../images/background.jpg") no-repeat top right; }
 
 section {
   background: #000 url("../images/headshot.jpg") no-repeat right;
@@ -390,7 +392,7 @@ footer {
   max-width: 1000px; }
   .board figure {
     background: #fff;
-    box-shadow: 1px 0px 15px #000;
+    box-shadow: -1px 0px 3px #0f0f0f;
     display: inline-block;
     margin: 1rem;
     padding: 0.5rem;

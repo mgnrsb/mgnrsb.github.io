@@ -13,11 +13,13 @@ $pink:rgb(240,96,96);
 
 $light:#bbb;
 $medium:#777;
+$dark:#fff;
 
 /* fonts*/
 $font: 'Quicksand', sans-serif;
 
 html {
+	background:$dark;
 	color:$light;
 	font-family:$font;
 	font-size:16px;
@@ -36,7 +38,7 @@ a {
 h1 {font-weight:400;}
 
 header {
-	background:#fff;
+	background:$dark;
 
 	h1 {
 		padding-top:1rem;	
@@ -62,6 +64,7 @@ header {
 					.current, a:hover {
 						background:$medium;
 						color:#fff;
+						text-shadow: -1px 0px 1px #000;
 						}
 				}
 			}
@@ -69,7 +72,7 @@ header {
 	}
 
 .container {
-	background:#e3c98e url("../images/background.jpg") no-repeat top right;
+		background:$medium url("../images/background.jpg") no-repeat top right;
 }
 
 section {
@@ -85,7 +88,7 @@ section {
 }
 
 footer {
-	background:#fff;
+	background:$dark;
 	padding:1rem 0;
 
 	p {
@@ -102,7 +105,7 @@ footer {
 
 	figure {
 		background:#fff;
-		box-shadow:1px 0px 15px #000;
+		box-shadow:-1px 0px 3px #0f0f0f;
 		display:inline-block;
 		margin:1rem;
 		padding:.5rem;
