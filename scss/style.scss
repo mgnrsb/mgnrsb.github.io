@@ -36,14 +36,16 @@ h1 {font-weight:400;}
 
 header {
 	background:#fff;
-	max-width:960px;
-	margin: 0 auto;
 
 	h1 {
-		margin:0px;
-		padding-top:1rem;		}	
+		padding-top:1rem;	
+		margin:0 auto;
+		max-width:960px;	
+		}	
 
 	nav {
+		margin:0 auto;
+		max-width:960px;
 
 		ul {
 			padding:0px;
@@ -65,6 +67,10 @@ header {
 		}
 	}
 
+.container {
+	background:#e3c98e url("../images/background.jpg") no-repeat top right;
+}
+
 section {
 		background:#000 url("../images/headshot.jpg") no-repeat right;
 		max-width:960px;
@@ -77,21 +83,39 @@ section {
 		}
 }
 
+footer {
+	background:#fff;
+
+	p {
+	text-align:right;
+	margin:0 auto;
+	max-width:960px;
+	}
+}
+
 .board {
-	background:#e3c98e url("../images/background.jpg") no-repeat top right;
 	padding:15px;
+	margin:0 auto;
+	max-width:1000px;
 
 	figure {
-		display:inline-block;
 		background:#fff;
+		box-shadow:1px 0px 15px #000;
+		display:inline-block;
+		margin:1rem;
+		padding:.5rem;
 		position:relative;
 		}
+
 	figcaption {
-		width:100%;
+		background:rgba(255,255,255,.7);
+		bottom:.5rem;
+		color:#777;
 		height:1.5em;
 		text-align:right;
+		padding:5px;
 		position:absolute;
-		background:rgba(255,255,255,.7);
-		bottom:.5em;
+		right:5px;
+		width:280px;
 	}
 	}
