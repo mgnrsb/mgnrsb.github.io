@@ -333,7 +333,6 @@ html {
   font-size: 16px; }
 
 body {
-  max-width: 960px;
   margin: 0 auto; }
 
 a {
@@ -344,7 +343,9 @@ h1 {
   font-weight: 400; }
 
 header {
-  background: #fff; }
+  background: #fff;
+  max-width: 960px;
+  margin: 0 auto; }
   header h1 {
     margin: 0px;
     padding-top: 1rem; }
@@ -361,11 +362,25 @@ header {
         color: #fff; }
 
 section {
-  background: #000 url("../headshot.jpg") no-repeat right; }
+  background: #000 url("../images/headshot.jpg") no-repeat right;
+  max-width: 960px;
+  margin: 0 auto; }
   section article {
     background: rgba(0, 0, 0, 0.5);
     padding: 3%;
     width: 30%; }
 
 .board {
-  background-color: #e3c98e; }
+  background: #e3c98e url("../images/background.jpg") no-repeat top right;
+  padding: 15px; }
+  .board figure {
+    display: inline-block;
+    background: #fff;
+    position: relative; }
+  .board figcaption {
+    width: 100%;
+    height: 1.5em;
+    text-align: right;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.7);
+    bottom: 0.5em; }

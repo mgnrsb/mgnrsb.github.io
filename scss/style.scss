@@ -24,7 +24,6 @@ html {
 	}
 
 body {
-	max-width:960px;
 	margin:0 auto;
 	}
 
@@ -37,6 +36,8 @@ h1 {font-weight:400;}
 
 header {
 	background:#fff;
+	max-width:960px;
+	margin: 0 auto;
 
 	h1 {
 		margin:0px;
@@ -65,7 +66,9 @@ header {
 	}
 
 section {
-		background:#000 url("../headshot.jpg") no-repeat right;
+		background:#000 url("../images/headshot.jpg") no-repeat right;
+		max-width:960px;
+		margin:0 auto;
 
 		article {
 			background:rgba(0,0,0,.5);
@@ -74,4 +77,21 @@ section {
 		}
 }
 
-.board {background-color:#e3c98e;}
+.board {
+	background:#e3c98e url("../images/background.jpg") no-repeat top right;
+	padding:15px;
+
+	figure {
+		display:inline-block;
+		background:#fff;
+		position:relative;
+		}
+	figcaption {
+		width:100%;
+		height:1.5em;
+		text-align:right;
+		position:absolute;
+		background:rgba(255,255,255,.7);
+		bottom:.5em;
+	}
+	}
