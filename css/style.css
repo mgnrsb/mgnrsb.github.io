@@ -376,7 +376,8 @@ section {
     width: 30%; }
 
 footer {
-  background: #fff; }
+  background: #fff;
+  padding: 1rem 0; }
   footer p {
     text-align: right;
     margin: 0 auto;
