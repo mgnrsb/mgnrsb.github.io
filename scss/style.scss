@@ -11,6 +11,9 @@ $yellow:rgb(242,235,191);
 $orange:rgb(243,181,98);
 $pink:rgb(240,96,96);
 
+$link:#8cbeb2;
+$linkshadow:#599d8c;
+
 $light:#bbb;
 $medium:#777;
 $dark:#fff;
@@ -30,9 +33,10 @@ body {
 	}
 
 a {
-	color:$medium;
+	color:$link;
 	font-weight:800;
 	text-decoration:none;
+
 	}
 
 h1 {font-weight:400;}
@@ -58,13 +62,12 @@ header {
 				display:inline-block;
 
 					a {
-						text-decoration:none;
 						padding:3px;
 						}
 					.current, a:hover {
-						background:$medium;
+						background:$link;
 						color:#fff;
-						text-shadow: -1px 0px 1px #000;
+						text-shadow: -1px -1px 0px $linkshadow;
 						}
 				}
 			}
