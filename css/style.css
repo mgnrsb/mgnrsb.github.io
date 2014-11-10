@@ -393,18 +393,18 @@ h4 {
 h5 {
   font-size: 1rem;
   text-transform: capitalize;
-  margin: 0;
+  margin: 0.5rem 0;
   padding: 0;
-  line-height: 2rem;
+  line-height: 1.5rem;
   color: #4ad9d9; }
 
 h6 {
   color: #777;
   font-size: 1rem;
   text-transform: capitalize;
-  margin: 0;
+  margin: 0.5rem 0;
   padding: 0;
-  line-height: 2rem; }
+  line-height: 1.5rem; }
 
 p {
   font-size: 1rem;
