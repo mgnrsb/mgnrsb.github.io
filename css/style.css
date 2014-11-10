@@ -426,6 +426,8 @@ body {
 
 .resume__header ul {
   float: left;
+  margin: 0 auto;
+  padding: 1rem 0.5rem;
   width: 50%; }
 
 .resume__header:before, .resume__header:after {
@@ -436,7 +438,7 @@ body {
 .resume__header li {
   list-style: none; }
 
-.resume__header ul:nth-child(2n+1) {
+.contact-physical {
   text-align: right; }
 
 .resume__experience > ul > li, .resume__education > ul > li {
@@ -475,4 +477,6 @@ body {
     background-color: #27b8b8;
     border-radius: 7px;
     color: #fff;
-    padding: 0.5rem; }
+    display: block;
+    padding: 0.5rem;
+    width: 6rem; }
