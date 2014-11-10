@@ -412,6 +412,9 @@ p {
   padding: 0.7rem 0;
   line-height: 1.4rem; }
 
+p > a:link, p > a:active, p > a:visited {
+  text-decoration: underline; }
+
 /* layout
 -------- */
 html {

@@ -125,6 +125,12 @@ p {
 	line-height:1.4rem;
 }
 
+p > a:link,
+p > a:active,
+p > a:visited {
+	text-decoration:underline;
+}
+
 /* layout
 -------- */
 
