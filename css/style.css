@@ -350,7 +350,7 @@ a:link, a:active, a:visited {
   text-decoration: none; }
 
 a:hover {
-  font-weight: 800; }
+  color: #4ad9d9; }
 
 h1 {
   color: #27b8b8;
@@ -361,6 +361,9 @@ h1 {
   padding: 1rem 0;
   text-shadow: -1px 1px 0 #1e8e8e;
   text-transform: capitalize; }
+
+h1 a:hover {
+  font-weight: 400; }
 
 h2 {
   color: #4ad9d9;
@@ -480,3 +483,5 @@ body {
     display: block;
     padding: 0.5rem;
     width: 6rem; }
+  .navigation-main__links__item a:hover {
+    background-color: #4ad9d9; }

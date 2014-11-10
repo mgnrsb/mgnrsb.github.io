@@ -43,7 +43,7 @@ a:visited {
  }
 
 a:hover { 
-	font-weight:800;
+	color:$blue-medium;
 }
 
 h1 {
@@ -57,7 +57,9 @@ h1 {
 	text-transform:capitalize;
 }
 h1 a {}
-h1 a:hover {}
+h1 a:hover {
+	font-weight:400;
+}
 
 h2 {
 	color:$blue-medium;
@@ -209,5 +211,8 @@ body {
 		display:block;
 		padding:.5rem;
 		width:6rem;
+	}
+	a:hover {
+		background-color:$blue-medium;
 	}
 }
