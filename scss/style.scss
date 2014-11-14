@@ -14,6 +14,9 @@ Tags: website, monochrome
 
 html { @include box-sizing(border-box); }
 *, *:after, *:before { box-sizing:inherit; }
+body {
+	-webkit-text-size-adjust: 100%;
+}
 
 /* color reference 
 -------- */
