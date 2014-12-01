@@ -492,6 +492,14 @@ body {
   .navigation-main__links__item a:hover {
     background-color: #4ad9d9; }
 
+.portfolio {
+  padding: 1rem; }
+
+.portfolio img {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem; }
+
 /* media queries
 -------- */
 @media print {
