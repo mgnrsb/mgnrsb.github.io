@@ -459,13 +459,16 @@ body {
   float: left;
   width: 80%; }
 
-.resume__expeirence li:before, .resume__experience li:after {
+.resume__experience {
   content: " ";
   clear: both;
   display: table; }
 
 /* styles
 -------- */
+.contact-text {
+  display: none; }
+
 .navigation-main__container, footer {
   text-align: center; }
   .navigation-main__container a, footer a {
@@ -488,3 +491,45 @@ body {
     width: 6rem; }
   .navigation-main__links__item a:hover {
     background-color: #4ad9d9; }
+
+/* media queries
+-------- */
+@media print {
+  html {
+    border: 1px solid #eee;
+    border-radius: 15px;
+    margin: 0;
+    padding: 1rem; }
+  body {
+    font-size: 11px; }
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    line-height: 0.9rem; }
+  h1 {
+    margin: 0.3rem 0;
+    padding: 0; }
+  h2 {
+    font-size: 1.6em;
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    padding: 0; }
+  h4 {
+    font-size: 1.2em;
+    margin-bottom: 0.4rem; }
+  h5, h6 {
+    font-size: 1em; }
+  p {
+    font-size: 11px;
+    line-height: 1.3;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.4rem; }
+  .resume__functions {
+    margin: 0.4rem; }
+  nav.navigation-main, .contact-icon {
+    display: none; }
+  .contact-text {
+    display: block; }
+  .resume__experience div, .resume__education div {
+    width: 100%; } }
