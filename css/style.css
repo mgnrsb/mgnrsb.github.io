@@ -345,8 +345,9 @@ body {
 /* links & type
 -------- */
 body {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 16px; }
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 200; }
 
 a:link, a:active, a:visited {
   color: #27b8b8;
@@ -355,62 +356,49 @@ a:link, a:active, a:visited {
 a:hover {
   color: #4ad9d9; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif, sans-serif; }
+
 h1 {
   color: #27b8b8;
   font-size: 2rem;
-  font-weight: 400;
-  line-height: 2.5rem;
-  margin: 0;
-  padding: 1rem 0;
-  text-shadow: -1px 1px 0 #1e8e8e;
   text-transform: capitalize; }
 
-h1 a:hover {
-  font-weight: 400; }
-
 h2 {
-  color: #4ad9d9;
+  color: #74e2e2;
   font-size: 1.5rem;
-  font-weight: 400;
-  line-height: 1.5rem;
-  margin: 0;
-  padding: 0.3rem 0;
-  text-shadow: -1px 1px 0 #2ac6c6;
+  margin: 1.3rem 0;
+  padding: 0;
+  text-align: center;
   text-transform: capitalize; }
 
 h3 {
-  margin: 0.5rem 0;
-  padding: 0;
+  color: #27b8b8;
   font-size: 1.2rem;
-  font-weight: 400;
-  text-transform: capitalize;
-  color: #4ad9d9;
-  line-height: 1.7rem;
-  text-shadow: -1px 1px 0 #74e2e2; }
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize; }
 
 h4 {
-  font-size: 1rem;
-  text-transform: capitalize;
-  line-height: 1.5rem;
-  margin: 0.2rem 0;
+  color: #4ad9d9;
+  font-size: 1.1rem;
+  margin: 0.5rem 0 0 1rem;
   padding: 0;
-  color: #27b8b8; }
+  text-transform: capitalize; }
 
 h5 {
-  font-size: 1rem;
-  text-transform: capitalize;
-  margin: 0.2rem 0;
-  padding: 0;
-  line-height: 1.5rem;
-  color: #4ad9d9; }
-
-h6 {
   color: #777;
   font-size: 1rem;
-  text-transform: capitalize;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 0 1rem;
   padding: 0;
-  line-height: 1.5rem; }
+  text-transform: capitalize; }
+
+h6 {
+  color: #999;
+  font-size: 1rem;
+  margin: 0.5rem 0 0 1rem;
+  padding: 0;
+  text-transform: capitalize; }
 
 p {
   font-size: 1rem;
@@ -447,22 +435,13 @@ body {
 .contact-physical {
   text-align: right; }
 
-.resume__experience > ul > li, .resume__education > ul > li {
-  list-style: none; }
+.resume__functions {
+  margin: 0.5rem 0 1.5rem 2.5rem;
+  padding: 0 0 1rem 0; }
 
-.resume__experience h4, .resume__education h4 {
-  float: left;
-  width: 20%;
-  min-width: 10rem; }
-
-.resume__experience div, .resume__education div {
-  float: left;
-  width: 80%; }
-
-.resume__experience {
-  content: " ";
-  clear: both;
-  display: table; }
+.resume__functions li {
+  margin: 0 0 0.5rem 0;
+  padding: 0; }
 
 /* styles
 -------- */
